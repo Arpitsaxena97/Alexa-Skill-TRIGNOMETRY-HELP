@@ -1,0 +1,437 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "trignometry help",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "not having any doubt",
+                        "no doubt",
+                        "na",
+                        "nops",
+                        "not ",
+                        "no",
+                        "cancel it",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "guide me",
+                        "help me",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop it",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "home",
+                        "navigate to home"
+                    ]
+                },
+                {
+                    "name": "valueIntent",
+                    "slots": [
+                        {
+                            "name": "question",
+                            "type": "QUESTION"
+                        }
+                    ],
+                    "samples": [
+                        "Tell me {question}",
+                        "Tell me formula of {question}",
+                        "{question}",
+                        "how much {question}",
+                        "about {question}",
+                        "what is {question}"
+                    ]
+                },
+                {
+                    "name": "againIntent",
+                    "slots": [],
+                    "samples": [
+                        "more doubt",
+                        "having doubt",
+                        "yeah",
+                        "yes"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "QUESTION",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "cot ninty plus thita",
+                                "synonyms": [
+                                    "cot 90 plus thita",
+                                    "cot ninty + thita",
+                                    "cot 90 + thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sec ninty plus thita",
+                                "synonyms": [
+                                    "sec 90 + thita",
+                                    "sec 90 plus thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cosec ninty plus thita",
+                                "synonyms": [
+                                    "cosec 90 + thita",
+                                    "cosec 90 plus thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan ninty plus thita",
+                                "synonyms": [
+                                    "tan ninty + thita",
+                                    "tan pi by two + thita",
+                                    "tan 90 + thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos ninty plus thita",
+                                "synonyms": [
+                                    "cos 90 + thita",
+                                    "coss ninty plus thita",
+                                    "coss pi by two plus thita",
+                                    "cos 90 plus thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine ninty plus thita",
+                                "synonyms": [
+                                    "sine 90 + thita",
+                                    "sine pibytwo plus thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cot ninty minus thita",
+                                "synonyms": [
+                                    "cot 90 minus thita",
+                                    "cot 90 - thita",
+                                    "cot ninty - thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sec ninty minus thita",
+                                "synonyms": [
+                                    "sec 90 - thita",
+                                    "sec 90 minus thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cosec ninty minus thita",
+                                "synonyms": [
+                                    "cosec 90 minus thita",
+                                    "cosec 90 - thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan ninty minus thita",
+                                "synonyms": [
+                                    "tan ninty - thita",
+                                    "tan pi by two - thita",
+                                    "tan 90 - thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos ninty minus thita",
+                                "synonyms": [
+                                    "cos 90 - thita",
+                                    "coss ninty minus thita",
+                                    "coss pi by two minus thita",
+                                    "cos 90 minus thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine ninty minus thita",
+                                "synonyms": [
+                                    "sine pibytwo minus thita",
+                                    "sine 90 - thita"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "two tan inverse x",
+                                "synonyms": [
+                                    "2 tan inverse x"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos inverse x minus cos inverse y",
+                                "synonyms": [
+                                    "cos inverse x - cos inverse y"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine inverse x minus sine inverse y",
+                                "synonyms": [
+                                    "sign inverse x minus sign inverse y",
+                                    "sin inverse x - sin inverse y"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos inverse x plus cos inverse y",
+                                "synonyms": [
+                                    "cos inverse x + cos inverse y"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine inverse x plus sine inverse y",
+                                "synonyms": [
+                                    "sign inverse x plus sign inverse y",
+                                    "sin inverse x + sin inverse y"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan inverse x minus tan inverse y",
+                                "synonyms": [
+                                    "tan inverse x - tan inverse y"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan inverse x plus tan inverse y",
+                                "synonyms": [
+                                    "tan inverse x + tan inverse y"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cosec inverse x plus sec inverse x",
+                                "synonyms": [
+                                    "cosec inverse x + sec inverse x"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan inverse x plus cot inverse x",
+                                "synonyms": [
+                                    "tan inverse x + cot inverse x"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine inverse x plus cos inverse x",
+                                "synonyms": [
+                                    "sign inverse x plus cos inverse x",
+                                    "sin inverse x + cos inverse x"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine a cos b",
+                                "synonyms": [
+                                    "sign a cos b",
+                                    "sin a into cos b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos a cos b",
+                                "synonyms": [
+                                    "cos a into cos b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine a sine b",
+                                "synonyms": [
+                                    "sign a sign b",
+                                    "sin a into sin b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos a minus cos b",
+                                "synonyms": [
+                                    "cos a - cos b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos a plus cos b",
+                                "synonyms": [
+                                    "cos a + cos b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine a minus sine b",
+                                "synonyms": [
+                                    "sign a minus sign b",
+                                    "sin a - sin b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine a plus sine b",
+                                "synonyms": [
+                                    "sign a plus sign b",
+                                    "sin a + sin b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan three a",
+                                "synonyms": [
+                                    "tan 3a"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos three a",
+                                "synonyms": [
+                                    "cos 3a"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine three a",
+                                "synonyms": [
+                                    "sin 3a"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan two a",
+                                "synonyms": [
+                                    "tan 2a"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos two a",
+                                "synonyms": [
+                                    "cos 2a"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine two a",
+                                "synonyms": [
+                                    "sine 2a",
+                                    "sign two a",
+                                    "sin 2a"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan a minus b",
+                                "synonyms": [
+                                    "tan a - b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tan a plus b",
+                                "synonyms": [
+                                    "tan a + b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos a minus b",
+                                "synonyms": [
+                                    "\t  cos a - b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cos a plus b",
+                                "synonyms": [
+                                    "\t  cos a + b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine a minus b",
+                                "synonyms": [
+                                    "sign a minus b",
+                                    "sin a - b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sine a plus b",
+                                "synonyms": [
+                                    "sign a plus b",
+                                    "sin a + b"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
